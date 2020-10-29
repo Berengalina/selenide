@@ -1,6 +1,5 @@
 package ru.netology.web;
 
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
@@ -12,6 +11,7 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class RegistrationTest {
+
     @Test
     void shouldRegisterCardDelivery() {
         open("http://localhost:9999");
